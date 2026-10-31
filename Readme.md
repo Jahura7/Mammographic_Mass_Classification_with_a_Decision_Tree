@@ -222,7 +222,7 @@ Mammographic_Mass_Classification_with_a_Decision_Tree/
      └── mammographic_masses_clean.csv
 ```
 
-*Note: The structure above is illustrative. Actual filenames and folders may differ.*
+
 
 ## How to Run the Project
 
