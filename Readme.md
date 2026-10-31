@@ -147,3 +147,47 @@ Before running the data-loading cell:
 The CSV must contain the columns `BI-RADS`, `Age`, `Shape`, `Margin`, `Density`, and `Target`. The notebook's data-loading cell uses the relative path `mammographic_masses_data_clean.csv`.
 
 > **Note:** Files uploaded directly to a Colab session are temporary and may need to be uploaded again when the runtime is restarted. For persistent storage, you can keep the CSV in Google Drive and mount Drive in Colab, then update the notebook's CSV path to the file's Drive location.
+
+### 3. Run the notebook
+
+Run the notebook cells from top to bottom using **Runtime → Run all** (or run each cell individually).
+
+The notebook uses common Python data-science libraries: Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn. If Colab reports that a required package is missing, install it in a code cell:
+
+```python
+!pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+### 4. Review the outputs
+
+After execution, review the EDA visualizations, baseline comparison, tuned Decision Tree results, classification report, feature importance, and decision-tree visualization.
+
+## Limitations
+
+- The cleaned dataset used in the notebook contains 830 records and may not represent all patient populations or clinical settings.
+- The notebook uses numeric target labels (0 and 1); their mapping to class names should be confirmed from the original dataset documentation.
+- A single random train/test split does not establish generalization across hospitals, time periods, or different populations.
+- The feature-importance values and decision-tree rules do not demonstrate causation.
+- The reported metrics are experimental results, not evidence of clinical effectiveness.
+- This project is for learning and portfolio demonstration only. It must not be used for diagnosis, screening decisions, or treatment decisions.
+
+## Possible Future Improvements
+
+- Compare the Decision Tree with Logistic Regression and Random Forest using the same evaluation strategy.
+- Use repeated or nested cross-validation to assess model-selection stability.
+- Evaluate probability calibration and class-specific error costs.
+- Confirm and clearly document the target-label mapping.
+- Validate the model on an independent dataset before making any claims about generalization.
+
+## Author
+
+**Jahura Begum**
+
+Data Science and Machine Learning learner
+
+- [GitHub Profile](https://github.com/Jahura7)
+- [Project Repository](https://github.com/Jahura7/Mammographic_Mass_Classification_with_a_Decision_Tree)
+
+---
+
+If you explore this project, feedback and suggestions are welcome.
