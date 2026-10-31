@@ -113,6 +113,164 @@ The tuned Decision Tree outperformed the most-frequent baseline on the reported 
 
 In this fitted tree, BI-RADS had the highest feature-importance value, followed by Shape and Age. Feature importance describes the model's use of features; it does not establish causation.
 
+# Mammographic Mass Classification with a Decision Tree
+
+## Project Overview
+
+This project focuses on building a **Machine Learning classification model using a Decision Tree Classifier** to predict whether a mammographic mass is benign or malignant.
+
+The project uses the Mammographic Mass Dataset, which contains patient and mammographic characteristics. The goal is to explore the dataset, perform data preprocessing, and develop a classification model to understand how machine learning can support mammographic mass classification.
+
+This project is developed as part of my Data Science and Machine Learning learning journey.
+
+## Project Objectives
+
+- Explore and understand the Mammographic Mass Dataset.
+- Perform Exploratory Data Analysis (EDA).
+- Identify and handle missing values.
+- Prepare features for machine learning.
+- Train a Decision Tree Classification model.
+- Evaluate model performance using classification metrics.
+- Interpret the model's predictions and results.
+
+## Dataset
+
+**Dataset:** Mammographic Mass Dataset
+
+**Source:** Kaggle
+
+[Download Mammographic Mass Dataset](https://www.kaggle.com/datasets/overratedgman/mammographic-mass-data-set?resource=download)
+
+The dataset originates from the UCI Machine Learning Repository.
+
+### Dataset Features
+
+| Feature | Description |
+|---|---|
+| BI-RADS | BI-RADS assessment |
+| Age | Patient's age |
+| Shape | Shape of the mammographic mass |
+| Margin | Margin characteristics |
+| Density | Density of the mass |
+| Severity | Target variable (Benign / Malignant) |
+
+**Dataset characteristics:**
+- Total instances: 961
+- Input features: 5
+- Target variable: Severity
+- Classification type: Binary Classification
+- Target classes: Benign and Malignant
+
+## Technologies and Libraries
+
+The following tools and libraries are used in this project:
+
+- Python
+- Google Colab / Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Project Workflow
+
+The project follows these major steps:
+
+1. **Data Loading:** Import the dataset using Pandas.
+2. **Data Cleaning:** Identify and handle missing values.
+3. **Exploratory Data Analysis:** Examine feature distributions and relationships.
+4. **Data Preprocessing:** Prepare the dataset for model training.
+5. **Train-Test Split:** Divide the dataset into training and testing sets.
+6. **Model Building:** Implement a Decision Tree Classifier.
+7. **Model Evaluation:** Evaluate the model using appropriate classification metrics.
+8. **Result Interpretation:** Analyze the model's performance and limitations.
+
+## Machine Learning Model
+
+**Algorithm:** Decision Tree Classifier
+
+Decision Trees are supervised machine learning algorithms used for classification and regression tasks.
+
+In this project, the algorithm learns patterns from the training data to classify mammographic masses into two categories:
+
+- Benign
+- Malignant
+
+## Model Evaluation
+
+The model is evaluated using classification performance metrics, including:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report
+
+These metrics help assess how effectively the model distinguishes between benign and malignant cases.
+
+## Repository Structure
+
+```text
+Mammographic_Mass_Classification_with_a_Decision_Tree/
+│
+├── main.md
+|    └──README.md
+├──experiment.md
+     └── mammographic_masses_classification_with_a_Decision_Tree.ipynb
+     └── mammographic_masses_clean.csv
+```
+
+*Note: The structure above is illustrative. Actual filenames and folders may differ.*
+
+## How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Jahura7/Mammographic_Mass_Classification_with_a_Decision_Tree.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Mammographic_Mass_Classification_with_a_Decision_Tree
+```
+
+3. Install the required libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+4. Open the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+5. Open `experiment.ipynb` and execute the notebook cells.
+
+Alternatively, you can run the notebook using Google Colab.
+
+## Important Disclaimer
+
+This project is developed for educational and research purposes only. The model is not intended for clinical diagnosis or medical decision-making. Its predictions should not replace professional medical evaluation.
+
+## Author
+
+**Jahura Begum**
+
+Aspiring Data Analyst | Data Science and Machine Learning Enthusiast
+
+- GitHub: [Jahura7](https://github.com/Jahura7)
+- Project Repository: [Mammographic Mass Classification with a Decision Tree](https://github.com/Jahura7/Mammographic_Mass_Classification_with_a_Decision_Tree)
+- Dataset: [Mammographic Mass Dataset – Kaggle](https://www.kaggle.com/datasets/overratedgman/mammographic-mass-data-set?resource=download)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository and share your feedback!
 ## How to Run (Google Colab)
 
 This project was developed in Google Colab. Follow these steps to run the notebook in the cloud.
