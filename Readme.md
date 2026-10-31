@@ -11,7 +11,7 @@ This is an educational machine-learning portfolio project. It is **not a medical
 ## Project Links
 
 - **GitHub repository:** [Mammographic Mass Classification with a Decision Tree](https://github.com/Jahura7/Mammographic_Mass_Classification_with_a_Decision_Tree)
-- **Experiment notebook:** [Mammographic_Mass_Classification_with_a_Decision_Tree.ipynb](https://github.com/Jahura7/Mammographic_Mass_Classification_with_a_Decision_Tree/blob/experiment/Mammographic_Mass_Classification_with_a_Decision_Tree.ipynb) 
+- **Experiment notebook:** [Mammographic_Mass_Classification_with_a_Decision_Tree.ipynb](https://github.com/Jahura7/Mammographic_Mass_Classification_with_a_Decision_Tree/blob/experiment.md/Mammographic_Mass_Classification_with_a_Decision_Tree.ipynb) 
 - **Execution environment:** [Google Colab](https://colab.research.google.com/)
 - **Dataset:** [Mammographic Mass Dataset on Kaggle](https://www.kaggle.com/datasets/overratedgman/mammographic-mass-data-set?resource=download)
 ## Dataset
